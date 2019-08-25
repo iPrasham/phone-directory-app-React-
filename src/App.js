@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Header from "./Header";
+import './App.css';
 
 // import logo from './logo.svg';
-// import './App.css';
+
 
 class App extends Component {
   render() {
@@ -10,12 +11,12 @@ class App extends Component {
       <div>
         <div>
           <Header />
-          <button>ADD</button>
+          <button className="addButton">ADD</button>
         </div>
-        <div>
-          <span>Name</span>
+        <div className="flexBox">
+          <span className="spanName">Name</span>
           <br />
-          <span>Phone</span>
+          <span className="spanPhone">Phone</span>
         </div>
       </div>
     );
