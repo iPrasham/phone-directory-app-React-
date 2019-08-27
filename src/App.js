@@ -22,7 +22,8 @@ class App extends Component {
     return (
       <div>
         <div>
-          <Header />
+          {/* <Header/> */}
+          <Header/>
           <button className="addButton">ADD</button>
         </div>
         <div className="flexBox">
